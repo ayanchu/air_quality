@@ -1,0 +1,22 @@
+{
+  "features": [
+    "PT08.S1(CO)",
+    "PT08.S2(NMHC)",
+    "PT08.S3(NOx)",
+    "PT08.S4(NO2)",
+    "PT08.S5(O3)",
+    "T",
+    "RH",
+    "AH",
+    "hour_sin",
+    "hour_cos",
+    "weekday_sin",
+    "weekday_cos",
+    "month_sin",
+    "month_cos"
+  ],
+  "target": "NO2(GT)",
+  "default_model": "Neural Network",
+  "units": "\u00b5g/m\u00b3",
+  "note": "Same-hour NO2 estimate, not a forecast"
+}
